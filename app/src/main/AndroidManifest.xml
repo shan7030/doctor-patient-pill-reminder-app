@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shantanu.samlple">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.SET_ALARM"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="PATIENT LOGIN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="DOCTOR LOGIN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="DOCTOR SIGNUP"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="PATIENT SIGNUP"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Patientsetpassword"
+            android:label="@string/createaccount" />
+        <activity
+            android:name=".Doctorsetpassword"
+            android:label="@string/createaccount" />
+        <activity
+            android:name=".PatientInside"
+            android:label="@string/insidepatient" />
+        <activity
+            android:name=".showtablets"
+            android:label="TABLETS"
+            android:parentActivityName=".PatientInside" />
+        <activity android:name=".DoctorInside1" />
+        <activity
+            android:name=".AddNewPatient"
+            android:label="ADD PATIENT"
+            android:parentActivityName=".DoctorInside1" />
+        <activity
+            android:name=".TabletList"
+            android:label="LIST OF TABLETS "
+            android:parentActivityName=".DoctorInside1" />
+        <activity
+            android:name=".RemovePatient"
+            android:label="REMOVE PATIENT"
+            android:parentActivityName=".DoctorInside1" />
+        <activity
+            android:name=".AddnewTablet"
+            android:label="ADD TABLET"
+            android:parentActivityName=".Tabletinfo" />
+        <activity
+            android:name=".RemoveTablet"
+            android:label="REMOVE TABLET"
+            android:parentActivityName=".Tabletinfo" />
+        <activity
+            android:name=".Tabletinfo"
+            android:label="SET REMAINDER"
+            android:parentActivityName=".showtablets" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".Repeating_activity"/>
+        <receiver android:name=".Notification_Reciever"/>
+
+
+
+    </application>
+
+</manifest>

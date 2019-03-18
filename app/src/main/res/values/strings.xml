@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MY REMAINDER APP</string>
+    <string name="button_text1">PATIENT</string>
+    <string name="button_text2">DOCTOR</string>
+    <string name="firstname">FIRST NAME</string>
+    <string name="lastname">LAST NAME</string>
+    <string name="clinicname">CLINIC NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="clinictime">CLINIC TIME</string>
+    <string name="next">NEXT</string>
+    <string name="age">AGE</string>
+    <string name="gender">GENDER</string>
+    <string name="contactno">CONTACT NO.</string>
+    <string name="login">LOGIN</string>
+    <string name="createaccount">CREATE ACCOUNT</string>
+    <string name="username">Username/Email-id</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="gotologinpage">Go to login page?</string>
+    <string name="listoddosesbydoctor">List of Doses by Doctors</string>
+    <string name="setremainder">Set Remainder</string>
+    <string name="insidepatient">WELCOME TO YOUR PAGE!!</string>
+    <string name="showtablets">SHOW TABLETS</string>
+    <string name="add_patient">ADD NEW PATIENT</string>
+    <string name="see_patients">LIST OF PATIENTS</string>
+    <string name="removepatient">REMOVE A PATIENT</string>
+    <string name="addtablet">ADD TABLET FOR A PATIENT</string>
+    <string name="removetablet">REMOVE A TABLET FOR A PATIENT</string>
+</resources>

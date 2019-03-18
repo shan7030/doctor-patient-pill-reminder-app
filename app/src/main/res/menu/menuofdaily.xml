@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Logout">
+    </item>
+
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Profile">
+    </item>
+    <item
+        android:id="@+id/previousactivity"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Previous E-Truck Visits">
+    </item>
+
+    <item
+        android:id="@+id/adddailynotification"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Add Daily Notification!!">
+    </item>
+
+
+</menu>

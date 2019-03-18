@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1081815013056",
+    "firebase_url": "https://fireapp-5bbca.firebaseio.com",
+    "project_id": "fireapp-5bbca",
+    "storage_bucket": "fireapp-5bbca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081815013056:android:11fcc2065224ae1e",
+        "android_client_info": {
+          "package_name": "com.example.shantanu.samlple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081815013056-3g660t85eq710uvf67j9vcf2ejvie6aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBcvBq6LzRRNRw6pvU_YmwWrzGuBta5LQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
