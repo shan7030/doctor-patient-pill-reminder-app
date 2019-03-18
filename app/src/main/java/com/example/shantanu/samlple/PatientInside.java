@@ -80,8 +80,10 @@ public class PatientInside extends AppCompatActivity {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot1) {
                                 DoctorInfo12 di=dataSnapshot1.getValue(DoctorInfo12.class);
+                                if(di!=null)
+                                {
                                 bt.add(di.Firstname);
-
+                                }
                                 listView = (ListView) findViewById(R.id.list_4);
 
                                 ArrayAdapter adapter = new ArrayAdapter<String>(PatientInside.this, R.layout.patient_list,bt);
