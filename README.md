@@ -21,7 +21,7 @@ This is android application which can be used by Doctors and Patients to communi
 5. In case you are new to Firebase, you can have look on GfG artcile written by me [here](https://www.geeksforgeeks.org/firebase-realtime-database-with-operations-in-android-with-examples/)
 6. Fill the google-services.json file with the credentails you obtained, this file is empty now
 7. Attach your device or try running the code using emulator
-8. :tada: Now you have local development setup ready
+8. Now you have local development setup ready :tada: 
 
 ### Writing new Funtionality
 1. Make sure you create new Issue for the new functionality
